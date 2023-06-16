@@ -20,7 +20,8 @@ cycle_time_dict = {3: (['Pa'], 'd'),
                    200: (['Zr', 'Cd', 'In', 'Sn'], 'd'),
                    20: (['Kr', 'Xe', 'H'], 's'),
                    60: (['Br', 'I'], 'd'),
-                   3435: (['Sr', 'Ba', 'Rb', 'Cs'], 'd')
+                   3435: (['Sr', 'Ba', 'Rb', 'Cs'], 'd'),
+                   -3435: (['Th232', 'U233'], 'd')
 }
 for c_time, (nucs, units) in cycle_time_dict.items():
     integrator.add_transfer_rate('fuel', nucs, 1/c_time, transfer_rate_units=f'1/{units}')
