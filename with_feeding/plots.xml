@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plots>
+  <!--serpent-plot1-->
+  <plot basis="xy" color_by="material" id="1" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 150.5</origin>
+    <width>686.816 686.816</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--serpent-plot2-->
+  <plot basis="yz" color_by="material" id="2" type="slice">
+    <pixels>1550 3400</pixels>
+    <origin>0.0 -77.5 306.07</origin>
+    <width>155 612.14</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--serpent-plot3-->
+  <plot basis="yz" color_by="material" id="3" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>0.0 0.0 155.0</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--serpent-plot4-->
+  <plot basis="yz" color_by="material" id="4" type="slice">
+    <pixels>2000 2000</pixels>
+    <origin>16.5 0.0 306.07</origin>
+    <width>686.816 612.14</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIB-IIA-lower1-->
+  <plot basis="xy" color_by="material" id="5" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 10.0</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIB-main-->
+  <plot basis="xy" color_by="material" id="6" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 23.0</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIB-upper1-->
+  <plot basis="xy" color_by="material" id="7" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 420</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIIA-upper-->
+  <plot basis="xy" color_by="material" id="8" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 435</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIIA-upper2-->
+  <plot basis="xy" color_by="material" id="9" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 437</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIB-upper2-->
+  <plot basis="xy" color_by="material" id="10" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 439</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIIA-upper3-->
+  <plot basis="xy" color_by="material" id="11" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 440</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIIA-upper4-->
+  <plot basis="xy" color_by="material" id="12" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 442</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-zoneIB-upper3-->
+  <plot basis="xy" color_by="material" id="13" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 448</origin>
+    <width>40 40</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIB-IIA-lower1-->
+  <plot basis="xy" color_by="material" id="14" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 10.0</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIB-main-->
+  <plot basis="xy" color_by="material" id="15" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 23.0</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIB-upper1-->
+  <plot basis="xy" color_by="material" id="16" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 420</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIIA-upper-->
+  <plot basis="xy" color_by="material" id="17" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 435</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIIA-upper2-->
+  <plot basis="xy" color_by="material" id="18" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 437</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIB-upper2-->
+  <plot basis="xy" color_by="material" id="19" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 439</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIIA-upper3-->
+  <plot basis="xy" color_by="material" id="20" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 440</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIIA-upper4-->
+  <plot basis="xy" color_by="material" id="21" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 442</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-zoneIB-upper3-->
+  <plot basis="xy" color_by="material" id="22" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 448</origin>
+    <width>522.232 522.232</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--detail-core-xz-upper-->
+  <plot basis="xz" color_by="material" id="23" type="slice">
+    <pixels>1000 1000</pixels>
+    <origin>215 0.0 440</origin>
+    <width>100 100</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+  <!--full-core-xz-->
+  <plot basis="xz" color_by="material" id="24" type="slice">
+    <pixels>10000 10000</pixels>
+    <origin>0.0 0.0 306.07</origin>
+    <width>618.816 612.14</width>
+    <color id="1" rgb="255 255 0"/>
+    <color id="2" rgb="128 0 128"/>
+    <color id="3" rgb="0 0 255"/>
+  </plot>
+</plots>

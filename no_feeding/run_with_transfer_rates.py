@@ -3,13 +3,14 @@ import openmc.deplete as od
 import json
 
 model = openmc.Model.from_xml()
-n_steps = 12
+n_steps = 33
 timesteps = n_steps * [3]
 power = n_steps * [2.25e9]
 
-with open('serpent_fissq.json') as f:
+with open('../serpent_fissq.json') as f:
     fission_q = json.load(f)
 
+openmc.config['cross_sections'] = '/home/oleg/projects/cross-section-libraries/endfb71_h5/cross_sections.xml'
 operator = od.CoupledOperator(model, "../chain_endfb71_ace.xml", fission_q=fission_q)
 integrator = od.PredictorIntegrator(operator,  timesteps, power=power, timestep_units='d')
 
