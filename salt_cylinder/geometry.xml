@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="1" region="-1 -11 10" universe="1"/>
+  <cell id="2" material="2" region="1 2 -3 4 -5 -11 10" universe="1"/>
+  <cell id="3" material="1" region="~(2 -3 4 -5) (6 -7 8 -9) -11 10" universe="1"/>
+  <surface coeffs="0.0 0.0 1.71069" id="1" type="z-cylinder"/>
+  <surface coeffs="-4.953" id="2" name="minimum x" type="x-plane"/>
+  <surface coeffs="4.953" id="3" name="maximum x" type="x-plane"/>
+  <surface coeffs="-4.953" id="4" name="minimum y" type="y-plane"/>
+  <surface coeffs="4.953" id="5" name="maximum y" type="y-plane"/>
+  <surface boundary="reflective" coeffs="-5.08" id="6" name="minimum x" type="x-plane"/>
+  <surface boundary="reflective" coeffs="5.08" id="7" name="maximum x" type="x-plane"/>
+  <surface boundary="reflective" coeffs="-5.08" id="8" name="minimum y" type="y-plane"/>
+  <surface boundary="reflective" coeffs="5.08" id="9" name="maximum y" type="y-plane"/>
+  <surface boundary="vacuum" coeffs="-224.79" id="10" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="224.79" id="11" type="z-plane"/>
+</geometry>
