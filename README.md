@@ -1,18 +1,31 @@
-#msbr-transfer-rates
+# msbr-transfer-rates
 This repository holds various python scripts for simulating a CSG model of the MSBR.
 The MSBR geometry is extremely complicated, so it is strongly reccomended to use the default
 particle and batch settings, as they will give convergence in both the neutron source distribution
 and in Keff.
 
-To reproduce the results, use the cross section libary created by running (these
-scripts). The models also require using fission-q values from serpent, but these
+To reproduce the results, use the cross section libary created by running the `download_endbf71.bash`
+and `process_endfb71_to_openmc.bash` scripts found [here](https://github.com/arfc/saltproc/tree/master/scripts)
+. The models also require using fission-q values from serpent, but these
 are automatically provided in the `serpent_fissq.json` file.
+
+Some of the scripts require downloading the [2022-yardas-ms](https://github.com/arfc/2022-yardas-ms/tree/master) repository in the same root directory.
 
 Model Parameters:
 - Material temperature: 900K
 - Cross section library: ENDF B/VII.1
 
 ## Directory structure
+
+### `olek-work-summary.ipynb`
+Summary of the results and analysis from the various cases.
+
+### `Th232-U233-cycle-times.ipynb`
+Calculation of cycle times from SaltProc results.
+
+### `compare_with_saltproc.ipynb`
+Comparison of the results fromn `with_feeding` and `no_feeding` with SaltProc results.
+
 ### `with_feeding`
 SaltProc MSBR model with reprocessing and feeding. Run the `run_with_transfer_rates.py`
 script to reproduce the results.
