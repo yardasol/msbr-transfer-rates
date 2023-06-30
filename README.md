@@ -1,22 +1,42 @@
-## Directory structure
+#msbr-transfer-rates
+This repository holds various python scripts for simulating a CSG model of the MSBR.
+The MSBR geometry is extremely complicated, so it is strongly reccomended to use the default
+particle and batch settings, as they will give convergence in both the neutron source distribution
+and in Keff.
 
-### `with_feeds`
-SaltProc MSBR model with reprocessing and feeding
+To reproduce the results, use the cross section libary created by running (these
+scripts). The models also require using fission-q values from serpent, but these
+are automatically provided in the `serpent_fissq.json` file.
+
+Model Parameters:
+- Material temperature: 900K
+- Cross section library: ENDF B/VII.1
+
+## Directory structure
+### `with_feeding`
+SaltProc MSBR model with reprocessing and feeding. Run the `run_with_transfer_rates.py`
+script to reproduce the results.
 
 ### `no_feeds`
-SaltProc MSBR model with reproecssing and no feeding
+SaltProc MSBR model with reproecssing and no feeding. Run the `run_with_transfer_rates.py`
+script to reproduce the results.
 
 ### `li6`
-SaltProc MSBR model with 99.995\% enriched Li
+SaltProc MSBR model with 99.995\% enriched Li. Run the `openmc_msbr_model.py` script
+to generate the model.
 
 ### `cr_holes`
-Supereset of `li6` but with channels in the control rods
+Supereset of `li6` but with channels in the control rods. Run the `openmc_msbr_model.py` script
+to generate the model. You can use the `openmc-plotter` tool to inspect the geometry. Adjust the 
+arugment of the `main` function in `openmc_msbr_model.py` to adjust the control rod height.
 
 ### `absorber_rods`
-Superset of `cr_holes` but with boron absorbing rods 
+Superset of `cr_holes` with the addition boron absorbing rods.
 
 ### `neutron_mesh`
 Superset of `absorber_rods`, but we add a mesh to tally flux and absorption reactions and visualize it.
+Use the `msbr_flux_plot` notebook to visiualize the flux and neutron absorptions in the core.
 
-### `thorium_search`
-Reactivity control by controlling thorium concentration in batchwise refueling.
+### `salt_cylinder`
+MSBR pincell model. Used to investigate reactivity control by varying the amount of feed material.
+Requires using the `batchwise` branch of the `openmsr` fork of OpenMC.
