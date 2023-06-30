@@ -30,7 +30,7 @@ Comparison of the results fromn `with_feeding` and `no_feeding` with SaltProc re
 SaltProc MSBR model with reprocessing and feeding. Run the `run_with_transfer_rates.py`
 script to reproduce the results.
 
-### `no_feeds`
+### `no_feeding`
 SaltProc MSBR model with reproecssing and no feeding. Run the `run_with_transfer_rates.py`
 script to reproduce the results.
 
@@ -48,7 +48,7 @@ Superset of `cr_holes` with the addition boron absorbing rods.
 
 ### `neutron_mesh`
 Superset of `absorber_rods`, but we add a mesh to tally flux and absorption reactions and visualize it.
-Use the `msbr_flux_plot` notebook to visiualize the flux and neutron absorptions in the core.
+Use the `msbr_flux_plot.ipynb` notebook to visiualize the flux and neutron absorptions in the core.
 
 ### `salt_cylinder`
 MSBR pincell model. Used to investigate reactivity control by varying the amount of feed material.
