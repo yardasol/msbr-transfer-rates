@@ -15,8 +15,8 @@ Model Parameters:
 - Material temperature: 900K
 - Cross section library: ENDF B/VII.1
 
-## Directory structure
 
+## Notebooks
 ### `olek-work-summary.ipynb`
 Summary of the results and analysis from the various cases.
 
@@ -26,6 +26,7 @@ Calculation of cycle times from SaltProc results.
 ### `compare_with_saltproc.ipynb`
 Comparison of the results fromn `with_feeding` and `no_feeding` with SaltProc results.
 
+## Directory structure
 ### `with_feeding`
 SaltProc MSBR model with reprocessing and feeding. Run the `run_with_transfer_rates.py`
 script to reproduce the results.
@@ -50,6 +51,6 @@ Superset of `cr_holes` with the addition boron absorbing rods.
 Superset of `absorber_rods`, but we add a mesh to tally flux and absorption reactions and visualize it.
 Use the `msbr_flux_plot.ipynb` notebook to visiualize the flux and neutron absorptions in the core.
 
-### `salt_cylinder`
+### `msbr_pincell`
 MSBR pincell model. Used to investigate reactivity control by varying the amount of feed material.
 Requires using the `batchwise` branch of the `openmsr` fork of OpenMC.
